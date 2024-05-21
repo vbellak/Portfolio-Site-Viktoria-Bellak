@@ -1,0 +1,106 @@
+/*
+Colors used: 
+Primary Color (Baby-Blue): #89cff0; (137,207,240); 
+Secondary Color (Light Blue): #7bbad8; (123,186,216);
+Tertiary Color (Medium Blue): #6da5c0; (109,165,192);
+Quartiary Color (Dark Blue): #5f90a8; (95,144,168);
+On-Primary (Background): #f3fafd; (243,250,253);
+Background: #ffffff; (255,255,255);
+On-Primary (Outlines): #293e48; (41,62,72);
+Analogue Color (Purple-Blue): #899cf0; (137,156,240);
+Analogue Color2 (Turqoise): #89f0de; (137,240,222);
+*/
+
+body{
+    background-color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #293e48;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Poiret+One', sans-serif;
+    line-height: 1.4;
+    color: #89cff0;
+}
+h1{
+    font-size: 2.75em;
+    font-weight: 700;
+}
+h2{
+    font-size: 2.25em;
+    font-weight: 700;
+}
+h3{
+    font-size: 1.75em;
+    font-weight: 400;
+}
+h4{
+    font-size: 1.35em;
+    font-weight: 400;
+}
+h5{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+  }
+a{
+    color: #89cff0;
+    text-decoration: none;
+}
+a:visited{
+    color: #89f0de;
+}
+a:hover, a:focus{
+    color: #899cf0;
+    text-decoration: underline;
+}
+a:active{
+    color: #899cf0;
+}
+#myHeader{
+    background-color: #f3fafd;
+    color: #89cff0;
+    padding: 40px;
+    text-align: center;
+}
+#myHeader2{
+    background-color: #f3fafd;
+    color: #89cff0;
+    padding: 20px;
+    text-align: center;
+}
+#Headline{
+    background-color: #f3fafd;
+    color: #89cff0;
+    padding: 40px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6da5c0;
+    color: #293e48;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 2px solid #6da5c0; 
+    transition: 0.2s opacity;
+}
+.button:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+}
+.button.contact {
+    background-color: transparent;
+    color: #899cf0;
+    text-transform: uppercase;
+    border: 2px solid #899cf0;
+}
+.button.contact:hover {
+    background-color: #899cf0;
+    color: #ffffff;
+}
