@@ -90,6 +90,8 @@ h5{
     border-bottom: 3px solid #89cff0;
     border-top: 3px solid #89cff0;
 }
+hr{border-bottom: 3px solid #89cff0;
+}
 img {
     width: 100%;
   }
@@ -153,6 +155,11 @@ a:active{
     margin: 25px 0;
     padding: 10px;
 }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .logo{
     max-width: 150px;
 }
@@ -180,3 +187,90 @@ ol{
     margin-left: 20px;
     padding: 10px;
 }
+[class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+      }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 50px;
+      }
+    body {font-size: 18px;}
+    #hero span {
+        display: block;
+      }
+    .col-md-6 {
+        width: 50%;
+      }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+      }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 50px;
+        font-size: 24px;
+        letter-spacing: 5px;
+      }
+    body {font-size: 20px;
+    }
+    #hero span {
+        display: block;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+
+}
+
+/*Animations*/
+@keyframes color-change {
+    from {fill: #38415C;}
+    to {fill: #a80505;}
+  }
+  .wheel {
+    animation: 4s color-change infinite alternate linear;
+  }
+@keyframes houses-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+  .houses {
+    animation: 30s houses-move infinite alternate linear;
+  }
+  @keyframes houses-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+  .houses-back {
+    animation: 34s houses-move-reverse infinite alternate linear;
+  }
