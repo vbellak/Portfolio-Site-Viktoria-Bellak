@@ -163,6 +163,9 @@ a:active{
 .logo{
     max-width: 150px;
 }
+.social-icon {
+    width: 25px;
+  }
 .main{
     padding: 15px;
 }
