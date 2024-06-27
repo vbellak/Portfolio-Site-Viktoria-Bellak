@@ -34,7 +34,8 @@ header{
     background-color: #f3fafd;
     color: #89cff0;
     padding: 10px 0 4px;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 /* Hero */
@@ -62,6 +63,7 @@ h1, h2, h3, h4, h5 {
 h1{
     font-size: 2.75em;
     font-weight: 700;
+    text-align: left;
 }
 h2{
     font-size: 2.25em;
@@ -82,10 +84,10 @@ h5{
     font-size: 1.25em;
     font-weight: 400;
 }
-#Headline{
+.Headline{
     color: #89cff0;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-bottom: 3px solid #89cff0;
     border-top: 3px solid #89cff0;
 }
@@ -94,9 +96,6 @@ hr{border-bottom: 3px solid #89cff0;
 img {
     width: 100%;
   }
-#background{
-    float: left;
-}  
 
 /* Footer */
 #contact{
@@ -119,7 +118,7 @@ a.class2:active {text-decoration: none; color: #89cff0;}
 /* Buttons */ 
 .button {
     display: inline-block;
-    background-color: #6da5c0;
+    background-color: #407995;
     color: #f3fafd;
     font-weight: 400;
     padding: 10px;
